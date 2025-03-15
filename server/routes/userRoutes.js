@@ -1,6 +1,6 @@
 const express = require('express')
 const { getBooks, addBook, searchBook, deleteBook } = require('../controllers/userControllers')
-const { validationmiddleware } = require('../middlewares/userDetailsValidation')
+const { validationmiddleware } = require('../middlewares/bookDetailsValidation')
 
 const userRoutes = express.Router()
 
